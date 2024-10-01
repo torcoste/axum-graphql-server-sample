@@ -1,0 +1,11 @@
+[package]
+name = "axum-graphql-server-sample"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+async-graphql = "7.0.11"
+async-graphql-axum = "7.0.11"
+tokio = { version = "1.37", features = ["macros", "rt-multi-thread"] }
+axum = { version = "0.7.5" }
+
